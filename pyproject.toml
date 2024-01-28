@@ -1,0 +1,73 @@
+[tool.poetry]
+name = "smbc"
+version = "0.1.0"
+description = ""
+authors = ["Kazunori Odani"]
+
+[tool.poetry.dependencies]
+#######################################
+### Base
+python = "3.8.10"
+tqdm = "^4.63.0"
+openpyxl = "^3.0.9"
+autopep8 = "^1.6.0"
+pandas = "^1.4.1"
+numpy = "^1.22.3"
+#######################################
+### Jupyter
+jupyter = "^1.0.0"
+jupyter-contrib-nbextensions = "^0.5.1"
+nbconvert = "^6.4.4"
+ipywidgets = "^7.7.0"
+widgetsnbextension = "^3.6.0"
+#######################################
+### Visualization
+matplotlib = "3.5.3"
+japanize-matplotlib = "^1.1.3"
+seaborn = "^0.11.2"
+plotnine = "^0.8.0"
+plotly = "^5.6.0"
+#######################################
+### Machine Learning
+scikit-learn = "^1.0.2"
+mlflow = "^1.24.0"
+shap = "^0.40.0"
+xgboost = "^1.5.2"
+catboost = "^1.0.4"
+lightgbm = "^3.3.3"
+optuna = "^2.10.0"
+#######################################
+### XML parse
+# lxml = "^4.8.0"
+# xmltodict = "^0.12.0"
+# beautifulsoup4 = "^4.10.0"
+#######################################
+### NLP
+# sentencepiece = "^0.1.96"
+# mojimoji = "^0.0.12"
+#######################################
+### Deep Learning
+# transformers = "4.3.2"
+# torch = {url = "https://download.pytorch.org/whl/cu115/torch-1.11.0%2Bcu115-cp39-cp39-win_amd64.whl"}
+######################################3
+### geocoding
+folium = "^0.13.0"
+geopy = "^2.3.0"
+#######################################
+### API
+ipylab = "^0.5.2"
+pandas-profiling = "^3.2.0"
+signate = "^9.9.10"
+
+
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+
+
+
